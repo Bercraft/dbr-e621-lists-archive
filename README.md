@@ -10,8 +10,3 @@ There are 3 variations:
 
 Note on the DBRE6 merged list: 
 In e621, e.g. the tag long_hair is aliased to very_long_hair, while on Danbooru, they are separate tags. This may cause suggestions to show both long_hair and very_long_hair when using very_long_hair and merged list. This shouldn't really cause any issues but it could be a tiny bit confusing or annoying if this somehow bother you.
-
-
-
-old description
-Repo to be used as submodule so a basic git clone on the processor script repo does not clone the tag lists with it (still possibly experimental, im still testing around)
