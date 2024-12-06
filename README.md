@@ -1,7 +1,7 @@
 # Danbooru/e621 tag lists archive repo for use in tag autocomplete extensions
 
 This repo contains mainly through GitHub actions created tag lists of Danbooru and e621.
-These tag lists update on a schedule of every 2 months automatically. The script including the workflow making this possible can be found here: https://github.com/DraconicDragon/danbooru-e621-tag-list-processo
+These tag lists update on a schedule of every 2 months automatically. The script including the workflow making this possible can be found here: https://github.com/DraconicDragon/danbooru-e621-tag-list-processor
 All tag lists contain all tags below a post count of 40 (subject to change, first few were 50) and alias tags (both active and deleted, excluding pending from e621) 
 There are 3 variations:
 - danbooru: contains only danbooru tags/aliases
