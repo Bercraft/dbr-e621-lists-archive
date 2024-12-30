@@ -1,6 +1,6 @@
-experimental, probably inaccurate wildcard list. **a lot of testing needed**.
+### experimental, probably inaccurate wildcard list. **a lot of testing needed**.
 
-# Found false positives? - create a GitHub issue here or on the script repo or tell me on CivitAI.com/user/DraconicDragon or Discord @i.eat.plutonium (I'm also on the CivitAI Discord server)
+## Found false positives? - create a GitHub issue here or on the script repo or tell me on CivitAI.com/user/DraconicDragon or Discord @i.eat.plutonium (I'm also on the CivitAI Discord server)
 
 contents are characters (danbooru only for now), 1 tag per line, filtered by gender in 3 text files, no underscore, backslashes before brackets
 
