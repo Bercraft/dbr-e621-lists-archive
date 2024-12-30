@@ -4,6 +4,11 @@
 
 contents are characters (danbooru only for now), 1 tag per line, filtered by gender in 3 text files, no underscore, backslashes before brackets
 
+#### the full list (like post count threshold 8) is very inaccurated to the bottom because theres tags there that may have like 10 posts but they are all 403 forbidden
+
+## also i really need to save these as csv 🙃 with post count column some stuff is easier, and i can save all genders in one file with gender column
+coming soon:tm:
+
 why not androgynous but indeterminate? - because its almost impossible to identify androgynous reliably and theres a lot of tags in indeterminate that are literally indeterminate because it wasnt possible to determine them accurately
 
 its possible to match similar spelled tags but often that is not the case and i dont know if theres a gender change with them and i cant exactly check that really reliably either (less chance of false positive than androgynous but still a pain to filter)
