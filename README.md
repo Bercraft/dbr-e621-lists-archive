@@ -1,4 +1,4 @@
-# Danbooru/e621 tag lists archive repo for use in tag autocomplete extensions
+# Danbooru/e621 tag lists archive repo for use in tag autocomplete extensions (+ wildcards and some misc files)
 
 This repo contains mainly through GitHub actions created tag lists of Danbooru and e621.
 These tag lists update on a schedule of every 2 months automatically. The script including the workflow making this possible can be found here: https://github.com/DraconicDragon/danbooru-e621-tag-list-processor
