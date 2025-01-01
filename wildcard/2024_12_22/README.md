@@ -4,7 +4,7 @@
 
 contents are characters (danbooru only for now), 1 tag per line, filtered by gender in 3 text files, no underscore, backslashes before brackets
 
-#### the full list (like post count threshold 8) is very inaccurated to the bottom because theres tags there that may have like 10 posts but they are all 403 forbidden
+#### the full list (chars with ~6+ posts) is very inaccurate to the bottom (<~20 posts per char) because i only filtered by tags on a post and didnt use any model to determine gender like https://huggingface.co/datasets/deepghs/character_index
 
 ## also i really need to save these as csv 🙃 with post count column some stuff is easier, and i can save all genders in one file with gender column
 coming soon:tm:
