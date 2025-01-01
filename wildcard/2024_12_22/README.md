@@ -1,7 +1,9 @@
-interesting: https://huggingface.co/datasets/deepghs/character_index
+interesting: https://huggingface.co/datasets/deepghs/character_index - includes gender probably determined by ai so maybe not accurate either
 https://huggingface.co/datasets/isek-ai/danbooru-tags-2024
 https://huggingface.co/isek-ai
 https://huggingface.co/datasets/isek-ai/danbooru-wiki-2024
+
+my stuff is very messy, i think at least - be warned or something like that
 
 ### experimental, probably inaccurate wildcard list. **a lot of testing needed**.
 
