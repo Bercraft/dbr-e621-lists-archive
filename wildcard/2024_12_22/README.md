@@ -1,3 +1,8 @@
+interesting: https://huggingface.co/datasets/deepghs/character_index
+https://huggingface.co/datasets/isek-ai/danbooru-tags-2024
+https://huggingface.co/isek-ai
+https://huggingface.co/datasets/isek-ai/danbooru-wiki-2024
+
 ### experimental, probably inaccurate wildcard list. **a lot of testing needed**.
 
 ## Found false positives? - create a GitHub issue here or on the script repo or tell me on CivitAI.com/user/DraconicDragon or Discord @i.eat.plutonium (I'm also on the CivitAI Discord server)
