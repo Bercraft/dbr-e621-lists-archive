@@ -6,8 +6,6 @@ contents are characters (danbooru only for now), 1 tag per line, filtered by gen
 
 #### the full list (chars with ~6+ posts) is very inaccurate to the bottom (<~20 posts per char) because i only filtered by tags on a post and didnt use any model to determine gender like https://huggingface.co/datasets/deepghs/character_index
 
-## also i really need to save these as csv 🙃 with post count column some stuff is easier, and i can save all genders in one file with gender column
-coming soon:tm:
 
 why not androgynous but indeterminate? - because its almost impossible to identify androgynous reliably and theres a lot of tags in indeterminate that are literally indeterminate because it wasnt possible to determine them accurately
 
