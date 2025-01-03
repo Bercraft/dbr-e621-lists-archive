@@ -1,4 +1,4 @@
-old_cat_merge contains files that were simply merged together without regards to the category number so dbr's meta tags are merged together with e6's species tags
+old_cat_merge contains files that were simply merged together without regards to the category number so dbr's meta tags are merged together with e6's species tags - update: see 57swap_exp (name is subject to change, probably) that takes category 5 and 7 of e621 into account
 
 The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
 
