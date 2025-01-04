@@ -4,14 +4,14 @@ old_cat_merge contains files that were simply merged together without regards to
 
 The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
 
-**CONTRIBUTOR is new!** See https://e621.net/forum_topics/54179 
-tag lists *before 18th december* will have copyright instead of contributor in the same category slot
+**CONTRIBUTOR (9) is new!** See https://e621.net/forum_topics/54179 
+tag lists *before 18th december* will have copyright instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
 
 | Value	| Description | site |
 |-------|-------------|------|
-|-1	    | Invalid     |  |
 |0	    | General     | danbooru |
 |1	    | Artist      | danbooru |
+|2	    | Invalid     |  |
 |3	    | Copyright   | danbooru |
 |4	    | Character   | danbooru |
 |5	    | Meta        | danbooru |
@@ -19,13 +19,15 @@ tag lists *before 18th december* will have copyright instead of contributor in t
 |6	    | Invalid     |  |
 |7	    | General     | e621 |
 |8	    | Artist      | e621 |
-|9	    | CONTRIBUTOR | e621 |
+|9	    | Contributor | e621 |
 |10	    | Copyright   | e621 |
 |11	    | Character   | e621 |
 |12	    | Species     | e621 |
 |13	    | Invalid     |  |
 |14	    | Meta        | e621 |
 |15	    | Lore        | e621 |
+
+Categories 2, 6 and 13 shouldn't have any tags associated with them
 
 e621 tags that already exist in danbooru like solo have been merged into the danbooru categories since these csvs are still autocomplete focused, if you want pure e621, visit the e621 folder.
 
