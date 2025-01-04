@@ -1,11 +1,21 @@
+#### Folders
 57swap_exp is the same as old_cat_merge but with e6 categories 5 and 7 swapped - created because of an anonymous suggestion
 
 old_cat_merge contains files that were simply merged together without regards to the category number so dbr's meta tags are merged together with e6's species tags
 
 The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
 
+#### Filename info
+pt2 / pt25 / pt50 = post threshold
+ia = includes 'active' aliases 
+dd = includes danbooru deleted aliases
+ed = includes e621 deleted aliases
+ep = includes e621 pending aliases (unlikely to appear)
+
+#### Merged lists info
+
 **CONTRIBUTOR (9) is new!** See https://e621.net/forum_topics/54179 
-tag lists *before 18th december* will have copyright instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
+Tag lists *before 18th december* will have copyright instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
 
 | Value	| Description | site |
 |-------|-------------|------|
