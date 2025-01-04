@@ -4,23 +4,28 @@ old_cat_merge contains files that were simply merged together without regards to
 
 The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
 
+**CONTRIBUTOR is new!** See https://e621.net/forum_topics/54179 
+tag lists *before 18th december* will have copyright instead of contributor in the same category slot
+
 | Value	| Description | site |
 |-------|-------------|------|
+|-1	    | Invalid     |  |
 |0	    | General     | danbooru |
 |1	    | Artist      | danbooru |
 |3	    | Copyright   | danbooru |
 |4	    | Character   | danbooru |
 |5	    | Meta        | danbooru |
 |       |             |          |
-|6	    | Invalid     | e621 |
+|6	    | Invalid     |  |
 |7	    | General     | e621 |
 |8	    | Artist      | e621 |
-|9	    | Copyright   | e621 |
-|10	    | Character   | e621 |
-|11	    | Species     | e621 |
-|12	    | Invalid     | e621 |
-|13	    | Meta        | e621 |
-|14	    | Lore        | e621 |
+|9	    | CONTRIBUTOR | e621 |
+|10	    | Copyright   | e621 |
+|11	    | Character   | e621 |
+|12	    | Species     | e621 |
+|13	    | Invalid     |  |
+|14	    | Meta        | e621 |
+|15	    | Lore        | e621 |
 
 e621 tags that already exist in danbooru like solo have been merged into the danbooru categories since these csvs are still autocomplete focused, if you want pure e621, visit the e621 folder.
 
@@ -36,8 +41,10 @@ You can also change the key's name in the json to match whatever name the csv fi
     "3": ["violet", "darkorchid"],
     "4": ["lightgreen", "darkgreen"],
     "5": ["orange", "darkorange"],
+    "6": ["red", "maroon"],
     "7": ["lightblue", "dodgerblue"],
     "8": ["gold", "goldenrod"],
+    "9": ["gold", "goldenrod"],
     "10": ["violet", "darkorchid"],
     "11": ["lightgreen", "darkgreen"],
     "12": ["tomato", "darksalmon"],
@@ -45,3 +52,4 @@ You can also change the key's name in the json to match whatever name the csv fi
     "15": ["seagreen", "darkseagreen"]
 }
 ```
+Remove 9 from the json if you are using a merged tag list from before december 18th and subtract 1 from anything 10 or above to get the right colors
