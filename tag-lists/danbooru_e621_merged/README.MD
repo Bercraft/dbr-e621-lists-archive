@@ -17,7 +17,7 @@ ep = includes e621 pending aliases (unlikely to appear)
 **CONTRIBUTOR (9) is new!** See https://e621.net/forum_topics/54179 
 Tag lists *before 18th december* will have copyright instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
 
-| Value	| Description | site |
+| Value	| Description | Site |
 |-------|-------------|------|
 |0	    | General     | danbooru |
 |1	    | Artist      | danbooru |
