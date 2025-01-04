@@ -11,7 +11,7 @@ The files in this folder are newer and separate e6 and dbr categories without me
 |3	    | Copyright   | danbooru |
 |4	    | Character   | danbooru |
 |5	    | Meta        | danbooru |
-|
+|       |             |          |
 |6	    | Invalid     | e621 |
 |7	    | General     | e621 |
 |8	    | Artist      | e621 |
