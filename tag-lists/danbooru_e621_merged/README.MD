@@ -6,10 +6,15 @@ old_cat_merge contains files that were simply merged together without regards to
 The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
 
 #### Filename info
+
 pt2 / pt25 / pt50 = post threshold
+
 ia = includes 'active' aliases 
+
 dd = includes danbooru deleted aliases
+
 ed = includes e621 deleted aliases
+
 ep = includes e621 pending aliases (unlikely to appear)
 
 #### Merged lists info
