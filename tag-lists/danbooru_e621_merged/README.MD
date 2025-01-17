@@ -20,7 +20,7 @@ ep = includes e621 pending aliases (unlikely to appear)
 #### Merged lists info
 
 **CONTRIBUTOR (9) is new!** See https://e621.net/forum_topics/54179 
-Tag lists *before 18th december* will have copyright instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
+Tag lists *before 18th december* will have invalid instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
 
 | Value	| Description | Site |
 |-------|-------------|------|
