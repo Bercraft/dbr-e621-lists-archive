@@ -1,15 +1,18 @@
 #### Folders
-57swap_exp is the same as old_cat_merge but with e6 categories 5 and 7 swapped - created because of an anonymous suggestion
 
-old_cat_merge contains files that were simply merged together without regards to the category number so dbr's meta tags are merged together with e6's species tags
+The files in this folder level are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there. These files also include an updated treatment where every alias that already exists exactly as a normal tag was deleted.
 
-The files in this folder are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there.
+unrefined_aliases contains folders/files that did not get the updated treatment of removing aliases if they already existed as normal tags.
+
+- 57swap_exp is the same as old_cat_merge but with e6 categories 5 and 7 swapped - created because of an anonymous suggestion
+
+- old_cat_merge contains files that were simply merged together without regards to the category number so dbr's meta tags are merged together with e6's species tags
 
 #### Filename info
 
-pt2 / pt25 / pt50 = post threshold
+pt2 / pt25 / pt50 = post count threshold
 
-ia = includes 'active' aliases 
+ia = includes 'active' aliases
 
 dd = includes danbooru deleted aliases
 
