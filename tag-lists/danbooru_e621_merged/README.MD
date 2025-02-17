@@ -22,28 +22,28 @@ ep = includes e621 pending aliases (unlikely to appear)
 
 #### Merged lists info
 
-**CONTRIBUTOR (9) is new!** See https://e621.net/forum_topics/54179 
+**CONTRIBUTOR (9) is new!** See <https://e621.net/forum_topics/54179>
 Tag lists *before 18th december* will have invalid instead of contributor in the same category slot. For AI related things this category and it's tags can very likely be ignored
 
-| Value	| Description | Site |
+| Value | Description | Site |
 |-------|-------------|------|
-|0	    | General     | danbooru |
-|1	    | Artist      | danbooru |
-|2	    | Invalid     |  |
-|3	    | Copyright   | danbooru |
-|4	    | Character   | danbooru |
-|5	    | Meta        | danbooru |
+|0     | General     | danbooru |
+|1     | Artist      | danbooru |
+|2     | Invalid     |  |
+|3     | Copyright   | danbooru |
+|4     | Character   | danbooru |
+|5     | Meta        | danbooru |
 |       |             |          |
-|6	    | Invalid     |  |
-|7	    | General     | e621 |
-|8	    | Artist      | e621 |
-|9	    | Contributor | e621 |
-|10	    | Copyright   | e621 |
-|11	    | Character   | e621 |
-|12	    | Species     | e621 |
-|13	    | Invalid     |  |
-|14	    | Meta        | e621 |
-|15	    | Lore        | e621 |
+|6     | Invalid     |  |
+|7     | General     | e621 |
+|8     | Artist      | e621 |
+|9     | Contributor | e621 |
+|10     | Copyright   | e621 |
+|11     | Character   | e621 |
+|12     | Species     | e621 |
+|13     | Invalid     |  |
+|14     | Meta        | e621 |
+|15     | Lore        | e621 |
 
 Categories 2, 6 and 13 shouldn't have any tags associated with them
 
@@ -72,4 +72,3 @@ You can also change the key's name in the json to match whatever name the csv fi
     "15": ["seagreen", "darkseagreen"]
 }
 ```
-Remove 9 from the json if you are using a merged tag list from before december 18th and subtract 1 from anything 10 or above to get the right colors
