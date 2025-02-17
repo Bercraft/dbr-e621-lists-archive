@@ -8,5 +8,5 @@ There are 3 variations:
 - e621: contains only e621 tags/aliases
 - DBRE6: contains a merged list of danbooru and e621 tags/aliases
 
-Note on the DBRE6 merged list: 
+Note on the DBRE6 merged list: (This should only concern the unrefined merged lists)
 In e621, e.g. the tag long_hair is aliased to very_long_hair, while on Danbooru, they are separate tags. This may cause suggestions to show both long_hair and very_long_hair when using very_long_hair and merged list. This shouldn't really cause any issues but it could be a tiny bit confusing or annoying if this somehow bother you.
