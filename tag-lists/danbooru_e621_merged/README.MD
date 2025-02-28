@@ -20,7 +20,13 @@ ed = includes e621 deleted aliases
 
 ep = includes e621 pending aliases (unlikely to appear)
 
-anything after the above suffixes is some extra info if needed. For example "_sum" means the post count is a sum of both (default settings was that the post count value would be taken from the danbooru list)
+dpc / epc / spc = merged post count type:
+
+- dpc = post count value taken from danbooru
+- epc = value taken from e621
+- spc = value is the sum of both danbooru + e621
+
+anything after the above suffixes is some extra info if needed. For example "_sum" means the post count is a sum of both (default settings was that the post count value would be taken from the danbooru list); subject to change
 
 #### Merged lists info
 
