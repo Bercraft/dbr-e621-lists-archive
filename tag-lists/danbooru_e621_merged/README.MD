@@ -20,6 +20,8 @@ ed = includes e621 deleted aliases
 
 ep = includes e621 pending aliases (unlikely to appear)
 
+anything after the above suffixes is some extra info if needed. For example "_sum" means the post count is a sum of both (default settings was that the post count value would be taken from the danbooru list)
+
 #### Merged lists info
 
 **CONTRIBUTOR (9) is new!** See <https://e621.net/forum_topics/54179>
