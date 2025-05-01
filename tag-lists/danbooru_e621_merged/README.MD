@@ -1,8 +1,8 @@
 #### Folders
 
-The files in this folder level are newer and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there. These files also include an updated treatment where every alias that already exists exactly as a normal tag was deleted.
+The files in this folder level are 'newer' compared to the ones in "unrefined_aliases" and separate e6 and dbr categories without merging unrelated categories by starting e6 tags at 7 and going up from there. These files also include an updated treatment where every alias that already exists exactly as a normal tag was deleted. (comfyui custom scripts will redirect to the wrong tag otherwise, the a1111 sd tagcomplete extension doesnt have this issue)
 
-unrefined_aliases contains folders/files that did not get the updated treatment of removing aliases if they already existed as normal tags.
+- unrefined_aliases contains folders/files that did not get the updated treatment of removing aliases if they already existed as normal tags.
 
 - 57swap_exp is the same as old_cat_merge but with e6 categories 5 and 7 swapped - created because of an anonymous suggestion
 
@@ -31,31 +31,31 @@ anything after the above suffixes is some extra info if needed. For example "_su
 #### Merged lists info
 
 **CONTRIBUTOR (9) is "new"** See <https://e621.net/forum_topics/54179>
-Tag lists *before 18th december 2024* will not have this category in the CSV files. For AI related things this category and it's tags can very likely be ignored
+Tag lists *before 18th december 2024* will not have this category in the CSV files. For AI related things this category and it's tags can very likely be ignored, and even deleted i guess, but they are still in there, might be gone in the future though (the script will be updated accordingly).
 
 | Value | Description | Site     |
 |-------|-------------|----------|
 |0      | General     | danbooru |
 |1      | Artist      | danbooru |
-|2      | Invalid     |          |
+|2      | *Invalid*   |          |
 |3      | Copyright   | danbooru |
 |4      | Character   | danbooru |
 |5      | Meta        | danbooru |
 |       |             |          |
-|6      | Invalid     |          |
+|6      | *Invalid*   |          |
 |7      | General     | e621     |
 |8      | Artist      | e621     |
 |9      | Contributor | e621     |
 |10     | Copyright   | e621     |
 |11     | Character   | e621     |
 |12     | Species     | e621     |
-|13     | Invalid     |          |
+|13     | *Invalid*   |          |
 |14     | Meta        | e621     |
 |15     | Lore        | e621     |
 
-Categories 2, 6 and 13 shouldn't have any tags associated with them
+Categories that show "*Invalid*" don't show up in the tag lists and don't have any tags associated with them
 
-e621 tags that already exist in danbooru like solo have been merged into the danbooru categories since these csvs are still autocomplete focused, if you want pure e621, visit the e621 folder.
+e621 tags that already exist in danbooru like solo have been merged into the danbooru categories since these csvs are still autocomplete focused, if you want pure e621, visit the e621 folder, the same goes for danbooru of course.
 
 ### for sd-webui-tagcomplete use this color config json and rename file to danbooru_e621.csv
 
