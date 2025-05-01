@@ -5,3 +5,5 @@ And the above is because i added a "raw mode" to the script mentioned in the roo
 the naming is basically (this doesnt apply to the older stuff from 2024 because i didnt bother at the time)
 
 Folder - Year-Month-Day_UTC-TIME
+
+UTC-TIME here meaning the creation date in UTC. For Danbooru creation date means the time at which the script was run while for e621 its the time displayed in [db_export index](https://e621.net/db_export/) (which i assume is UTC, heh)
