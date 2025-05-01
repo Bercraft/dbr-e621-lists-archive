@@ -20,13 +20,13 @@ ed = includes e621 deleted aliases
 
 ep = includes e621 pending aliases (unlikely to appear)
 
-dpc / epc / spc = merged post count type:
+dpc / epc / spc = merged post count type for duplicate tags:
 
 - dpc = post count value taken from danbooru
 - epc = value taken from e621
 - spc = value is the sum of both danbooru + e621
 
-anything after the above suffixes is some extra info if needed. For example "_sum" means the post count is a sum of both (default settings was that the post count value would be taken from the danbooru list); subject to change
+anything after the above suffixes is some extra info if needed. For example "_sum" (existing files that had sum are now _spc) means the post count is a sum of both (default settings was that the post count value would be taken from the danbooru list); subject to change, but basically, any suffix that is not mentioned here might be changed at some point, however existing suffixes are very unlikely to be changed
 
 #### Merged lists info
 
