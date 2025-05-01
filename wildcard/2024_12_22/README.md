@@ -5,16 +5,16 @@ https://huggingface.co/datasets/isek-ai/danbooru-wiki-2024
 
 my stuff is very messy, i think at least - be warned or something like that
 
-### experimental, probably inaccurate wildcard list. **a lot of testing needed**.
+### experimental, probably inaccurate wildcard list. **a lot of testing needed**
 
 #### Found false positives? - create a GitHub issue here or on the script repo or tell me on CivitAI.com/user/DraconicDragon or Discord @i.eat.plutonium (I'm also on the CivitAI Discord server)
+actually dont make one, i think there exists better lists than this somewhere
 
-sounded like an ad
+sounded like an ad btw
 
 contents are characters (danbooru only for now), 1 tag per line, filtered by gender in 3 text files, no underscore, backslashes before brackets
 
 #### the full list (chars with ~6+ posts) is very inaccurate to the bottom (<~20 posts per char) because i only filtered by tags on a post and didnt use any model to determine gender like https://huggingface.co/datasets/deepghs/character_index
-
 
 why not androgynous but indeterminate? - because its almost impossible to identify androgynous reliably and theres a lot of tags in indeterminate that are literally indeterminate because it wasnt possible to determine them accurately
 

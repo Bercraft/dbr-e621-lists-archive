@@ -30,28 +30,28 @@ anything after the above suffixes is some extra info if needed. For example "_su
 
 #### Merged lists info
 
-**CONTRIBUTOR (9) is new!** See <https://e621.net/forum_topics/54179>
-Tag lists *before 18th december* will be empty in the CSV files. For AI related things this category and it's tags can very likely be ignored
+**CONTRIBUTOR (9) is "new"** See <https://e621.net/forum_topics/54179>
+Tag lists *before 18th december 2024* will not have this category in the CSV files. For AI related things this category and it's tags can very likely be ignored
 
-| Value | Description | Site |
-|-------|-------------|------|
-|0     | General     | danbooru |
-|1     | Artist      | danbooru |
-|2     | Invalid     |  |
-|3     | Copyright   | danbooru |
-|4     | Character   | danbooru |
-|5     | Meta        | danbooru |
+| Value | Description | Site     |
+|-------|-------------|----------|
+|0      | General     | danbooru |
+|1      | Artist      | danbooru |
+|2      | Invalid     |          |
+|3      | Copyright   | danbooru |
+|4      | Character   | danbooru |
+|5      | Meta        | danbooru |
 |       |             |          |
-|6     | Invalid     |  |
-|7     | General     | e621 |
-|8     | Artist      | e621 |
-|9     | Contributor | e621 |
-|10     | Copyright   | e621 |
-|11     | Character   | e621 |
-|12     | Species     | e621 |
-|13     | Invalid     |  |
-|14     | Meta        | e621 |
-|15     | Lore        | e621 |
+|6      | Invalid     |          |
+|7      | General     | e621     |
+|8      | Artist      | e621     |
+|9      | Contributor | e621     |
+|10     | Copyright   | e621     |
+|11     | Character   | e621     |
+|12     | Species     | e621     |
+|13     | Invalid     |          |
+|14     | Meta        | e621     |
+|15     | Lore        | e621     |
 
 Categories 2, 6 and 13 shouldn't have any tags associated with them
 
