@@ -1,8 +1,8 @@
 # todo: use google bigquery dump in future
 
-### note: the raw mode of currently has an issue where everything is duplicated, oops
+### note: the raw mode of my script had an issue where first page it scraped is duplicated, oops
 
-so stuff is duplicated in the danbooru data.
+has been fixed but the existing files will have the first page's data duplicated, easy to remove, maybe ill reupload fixed ones at some point
 
 This folder contains the "raw" data from the sites (folder names), not 100% complete because icba with it and is mostly so i can look at older tag lists and see if i need them or how things changed i guess, though im probably going to upload *all but the posts* data from now on, so almost 100% complete i guess
 
