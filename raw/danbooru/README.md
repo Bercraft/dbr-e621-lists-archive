@@ -1,5 +1,7 @@
 Note: the 2025-04-07 compressed files have the following sizes uncompressed
 
+### bigger note, i highly suggest using the official danbooru google bigquery dump if you want up to date data
+
 - tag_aliases.json: 17.3 MB
 
 - tag_implications.json: 13.1 MB
