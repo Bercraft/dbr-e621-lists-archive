@@ -8,6 +8,8 @@ This folder contains the "raw" data from the sites (folder names), not 100% comp
 
 And the above is because i added a "raw mode" to the script mentioned in the root repository, for danbooru at least, which can be found in the ["feat/raw-mode" branch](https://github.com/DraconicDragon/danbooru-e621-tag-list-processor/tree/feat/raw-mode) (merged into main already)
 
+Useful thing: https://huggingface.co/datasets/itterative/danbooru_wikis_full/
+
 the naming is basically (this doesnt apply to the older stuff from 2024 because i didnt bother at the time)
 
 Folder - Year-Month-Day_UTC-TIME
