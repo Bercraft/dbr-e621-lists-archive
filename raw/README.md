@@ -1,4 +1,4 @@
-# todo: use google bigquery dump in future
+## todo: use google bigquery dump in future, and upload to HF, in parquet
 
 ### note: the raw mode of my script had an issue where first page it scraped is duplicated, oops
 
