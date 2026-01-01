@@ -2,7 +2,17 @@ name: Monthly Tag Lists
 
 on:
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 1 1 *"
+    - cron: "0 0 1 2 *"
+    - cron: "0 0 1 3 *"
+    - cron: "0 0 1 4 *"
+    - cron: "0 0 1 5 *"
+    - cron: "0 0 1 6 *"
+    - cron: "0 0 1 8 *"
+    - cron: "0 0 1 9 *"
+    - cron: "0 0 1 10 *"
+    - cron: "0 0 1 11 *"
+    - cron: "0 0 1 12 *"
   workflow_dispatch:
 
 permissions:
@@ -32,12 +42,28 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
         working-directory: tag-list-processor
+      - name: Determine run mode
+        id: month-check
+        run: |
+          set -euo pipefail
+          month=$(date -u +%m)
+          echo "month=$month" >> "$GITHUB_OUTPUT"
+          artifact_months=("02" "04" "05" "08" "10" "11")
+          should_upload_artifact=false
+          for candidate in "${artifact_months[@]}"; do
+            if [[ "$month" == "$candidate" ]]; then
+              should_upload_artifact=true
+              break
+            fi
+          done
+          echo "should_upload_artifact=$should_upload_artifact" >> "$GITHUB_OUTPUT"
       - name: Run tag list processor
         run: |
           set -euo pipefail
           printf '\n\n20\n\n\n\n\ny\n' | python main.py
         working-directory: tag-list-processor
       - name: Copy generated tag lists
+        if: ${{ steps.month-check.outputs.should_upload_artifact == 'false' }}
         run: |
           set -euo pipefail
           ROOT=tag-list-processor/output/tag_lists
@@ -64,7 +90,14 @@ jobs:
               cp "$SRC" "$DEST/"
             fi
           done
+      - name: Upload generated output
+        if: ${{ steps.month-check.outputs.should_upload_artifact == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: tag-list-processor-output-${{ steps.month-check.outputs.month }}
+          path: tag-list-processor/output
       - name: Commit and push tag lists
+        if: ${{ steps.month-check.outputs.should_upload_artifact == 'false' }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
