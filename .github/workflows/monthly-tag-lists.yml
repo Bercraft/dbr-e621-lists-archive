@@ -44,6 +44,9 @@ jobs:
           mkdir -p tag-lists/{danbooru,e621,danbooru_e621_merged,krita_ai_compatible}
           shopt -s nullglob
           for file in "$ROOT"/danbooru_*.csv; do
+            if [[ "$file" == *danbooru_e621_merged_* ]]; then
+              continue
+            fi
             cp "$file" tag-lists/danbooru/
           done
           for file in "$ROOT"/e621_*.csv; do
