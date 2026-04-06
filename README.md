@@ -6,6 +6,9 @@ The script with which the tag lists are made can be found here: https://github.c
 
 There are README files in the tag-lists folders that should explain the file naming etc
 
+**Every month**, on the first day of that month, a GitHub actions workflow runs and uploads gathered tag lists as artifact;  
+while **every three months** (1, 4, 7, 10) that workflow commits and pushes the tag list update to the repo. (Reason is to keep the repo size low, maybe I should bother uploading these to HuggingFace instead at some point)
+
 quicklinks
 - [Danbooru E621 Merged Tag Lists](tag-lists/danbooru_e621_merged/README.MD)
 - [Danbooru Tag Lists](tag-lists/danbooru/README.md)
